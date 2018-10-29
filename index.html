@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Cat Clicker!</title>
+</head>
+<body>
+    <h1>Cat Clicker Pro</h1>
+     <ul id="cat-list"></ul>
+     <div id="cat-view">
+       <h2 id="cat-name"></h2>
+       <p id="cat-counter"></p>
+       <img id="cat-image" class="cat-image" src="" alt="cute cat">
+     </div>
+      <button id="admin-btn">Admin</button>
+      <div class="admin flex-container">
+       <form id="admin-form" class="hide"  action="">
+         <div class="row">
+           <div class="col-25">
+             <label for="admin-cat-name">Cat Name</label>
+           </div>
+           <div clas="col-75">
+             <input id="admin-cat-name" type="text">
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-25">
+             <label for="admin-cat-Image">Cat Image</label>
+           </div>
+           <div class="col-75">
+             <input id="admin-cat-image" type="text">
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-25">
+             <label for="admin-cat-counter">Cat Counter</label>
+          </div>
+          <div class="col-75">
+            <input id="admin-cat-counter" type="text">
+          </div>
+         </div>
+         <div class='row'>
+           <button id="admin-save">Save</button>
+           <button id="admin-cancel">Cancel</button>
+        </div>
+       </form>
+    </div>
+
+    <script
+     src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/cat-clicker.js"></script>
+
+</body>
+</html>
