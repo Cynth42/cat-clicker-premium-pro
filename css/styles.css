@@ -93,9 +93,9 @@ input[type=text] {
 }
 
 #admin-form {
-  background-color: #ffccff;
+  background-color: #f2f2f2;
   border-radius: 5px;
-  border: 1px solid blue;
+  border: 1px solid #424242;
   padding: 20px;
 }
 
