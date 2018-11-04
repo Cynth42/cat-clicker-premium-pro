@@ -26,7 +26,7 @@ An MVC approach to building a simple app where a cat image is clicked and the am
 
 2. Click on the cat's image to display the number of counts. Each click increments the cat object's counted clicks.
 
-3. An Admin button is provided to manually change the cat's name, number of clicks or image path.  Simply click on it.
+3. An Admin button is provided to manually change the cat's name, number of clicks or image path.  Simply click on it. You can also save or cancel changes made.
 
 
 ## Contributing
