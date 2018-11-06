@@ -2,7 +2,7 @@
 
 Udacity Front-End Web Developer Nanodegree program
 
-My final version to the cat Clicker exercise
+Final version of the cat clicker project
 
 An MVC approach to building a simple app where a cat image is clicked and the amount of times it's clicked is displayed.
 
